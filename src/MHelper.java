@@ -11,7 +11,7 @@ public class MHelper {
 	public static void main(String[] args) {
 		
 		// initializing WebDriver instance, opening Miniaylo webpage,
-		// waiting for the last used web element appear on the webpage
+		// waiting for some bottom-located web element appear on the webpage
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://miniaylo.finance.ua");
 		WebDriverWait wait = new WebDriverWait(driver, 45);
